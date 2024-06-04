@@ -13,11 +13,11 @@
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Space+Grotesk:wght@300..700&display=swap" rel="stylesheet">
 
   <!-- Bootstrap CSS -->
-  <link rel="stylesheet" href="css/bootstrap.min.css">
-  <link rel="stylesheet" href="css/swiper-bundle.min.css">
-  <link rel="stylesheet" href="css/jquery-ui.min.css">
-  <link rel="stylesheet" href="css/settings.css">
-  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="../css/bootstrap.min.css">
+  <link rel="stylesheet" href="../css/swiper-bundle.min.css">
+  <link rel="stylesheet" href="../css/jquery-ui.min.css">
+  <link rel="stylesheet" href="../css/settings.css">
+  <link rel="stylesheet" href="../css/style.css">
   <title>Totem</title>
 </head>
 <body id="body">
@@ -27,7 +27,7 @@
       <div class="container">
         <nav class="navbar navbar-expand-xl navbar-light">
           <a class="navbar-brand header-logo" href="#">
-            <img src="img/svg/1/totem_logo_full.svg" alt="">
+            <img src="../img/svg/1/totem_logo_full.svg" alt="">
           </a>
 
           <div class="collapse navbar-collapse header-collapse" id="header-collapse">
@@ -117,7 +117,7 @@
       <div class="container">
         <div class="page-title-wrap">
           <h1 class="global-title362 white m-0">
-            Settings
+            Ambassador Program
           </h1>
           <ul class="page-title__list">
             <li>
@@ -140,74 +140,177 @@
     </div>
   </section>
 
-  <section class="cabinet-middle cabinet-middle_inner cabinet-partners">
+  <section class="cabinet-middle cabinet-middle_inner cabinet-ambasador">
     <div class="container">
       <ul class="cabinet-breadcrumbs">
         <li>
           <a href="#">Dashboard</a>
         </li>
         <li>
-          Settings
+          Ambassador Program
         </li>
       </ul>
-      <div class="global-white global-white2 cabinet-withdraw-token">
-        <div class="cabinet-parners-row">
-          <div class="row">
-            <div class="col-md-6 col-12">
-              <div class="global-form-item">
-                <div class="global-form-item__label">Your Name / Surname</div>
-                <input type="text" value="Matthew Bronsky" class="global-input global-input_border">
-              </div>
-            </div>
-            <div class="col-md-6 col-12">
-              <div class="global-form-item">
-                <div class="global-form-item__label">Email</div>
-                <input type="email" value="office@sepikacompany.com" class="global-input global-input_border">
-              </div>
-            </div>
-            <div class="col-12">
-              <div class="global-form-item">
-                <div class="global-form-item__label">Your Ethereum Wallet</div>
-                <input type="text" value="0xb794f5ea0ba394718da839613fffba74279579268" class="global-input global-input_border ellipsis">
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="cabinet-parners-row">
+      <div class="global-white global-white2">
+        <div class="cabinet-withdraw-row cabinet-ambasador-copy">
           <div class="cabinet-withdraw__title">
-            Change Password
+            Your Individual Partner Link:
+          </div>
+          <div class="global-copy">
+            <input type="text" id="cabinet-ambasador_input" readonly value="https://tis.network/partner/aff-id?=45897" class="global-input global-input_border ellipsis">
+            <a href="#" class="global-copy__link" role="button" data-toggle="tooltip" title="Copied!" data-trigger="click" data-clipboard-target="#cabinet-ambasador_input">
+              <span>
+                Copy
+              </span>
+              <img src="../img/svg/cabinet/copy.svg" alt="">
+            </a>
           </div>
         </div>
-        <div class="cabinet-parners-row">
-          <div class="row">
-            <div class="col-md-6 col-12">
-              <div class="global-form-item">
-                <div class="global-form-item__label">Current Password</div>
-                <input type="password" class="global-input global-input_border">
+        <div class="cabinet-withdraw-row">
+          <div class="cabinet-withdraw__title">
+            Affiliate Program Level:
+          </div>
+          <div class="global-title206 black">
+            Level 2 / 15%
+          </div>
+        </div>
+        <div class="cabinet-withdraw-row">
+          <div class="cabinet-withdraw__title">
+            Involved investors:
+          </div>
+          <a class="cabinet-ambasador__link global-title206 blue" data-toggle="collapse" href="#cabinet-ambasador-collapse" role="button" aria-expanded="false" aria-controls="cabinet-ambasador-collapse">
+            <span>24</span>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" width="16" height="16"><path fill="#0000f8" d="M201.4 374.6c12.5 12.5 32.8 12.5 45.3 0l160-160c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L224 306.7 86.6 169.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l160 160z"/></svg>
+          </a>
+          <div class="collapse cabinet-ambasador-collapse" id="cabinet-ambasador-collapse">
+            <div class="cabinet-ambasador-collapse-wrap">
+              <div class="global-search cabinet-ambasador__search">
+                <input type="text" class="global-input global-input_border ellipsis" placeholder="Filter by email">
+                <button class="global-search__btn">
+                  <img src="../img/svg/cabinet/search.svg" alt="">
+                </button>
               </div>
-              <div class="global-form-item">
-                <div class="global-form-item__label">New Password</div>
-                <input type="password" class="global-input global-input_border">
-              </div>
-              <div class="global-form-item">
-                <div class="global-form-item__label">Retype New Password</div>
-                <input type="password" class="global-input global-input_border">
+              <div class="global-table-wrap cabinet-ambasador-table">
+                <table class="global-table">
+                  <tr class="global-table-th-wrap">
+                    <th>#</th>
+                    <th>E-mail</th>
+                    <th>Sign up date</th>
+                    <th>Bought Tokens, TIS</th>
+                    <th>Your Profit, TIS</th>
+                  </tr>
+                  <tr>
+                    <td data-head="#">
+                      <span>630</span>
+                    </td>
+                    <td data-head="E-mail">
+                      <span>alex.johnson87@gmail.com</span>
+                    </td>
+                    <td data-head="Sign up date">
+                      <span>February 13, 2024</span>
+                    </td>
+                    <td data-head="Bought Tokens, TIS">
+                      <span>458</span>
+                    </td>
+                    <td data-head="Your Profit, TIS">
+                      <span>68.7</span>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td data-head="#">
+                      <span>642</span>
+                    </td>
+                    <td data-head="E-mail">
+                      <span>samantha.greenwood42@yahoo.com</span>
+                    </td>
+                    <td data-head="Sign up date">
+                      <span>April 28, 2024</span>
+                    </td>
+                    <td data-head="Bought Tokens, TIS">
+                      <span>12578</span>
+                    </td>
+                    <td data-head="Your Profit, TIS">
+                      <span>1886.7</span>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td data-head="#">
+                      <span>687</span>
+                    </td>
+                    <td data-head="E-mail">
+                      <span>michael.taylor22@hotmail.com</span>
+                    </td>
+                    <td data-head="Sign up date">
+                      <span>July 19, 2024</span>
+                    </td>
+                    <td data-head="Bought Tokens, TIS">
+                      <span>1448</span>
+                    </td>
+                    <td data-head="Your Profit, TIS">
+                      <span>217.2</span>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td data-head="#">
+                      <span>630</span>
+                    </td>
+                    <td data-head="E-mail">
+                      <span>alex.johnson87@gmail.com</span>
+                    </td>
+                    <td data-head="Sign up date">
+                      <span>February 13, 2024</span>
+                    </td>
+                    <td data-head="Bought Tokens, TIS">
+                      <span>458</span>
+                    </td>
+                    <td data-head="Your Profit, TIS">
+                      <span>68.7</span>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td data-head="#">
+                      <span>642</span>
+                    </td>
+                    <td data-head="E-mail">
+                      <span>samantha.greenwood42@yahoo.com</span>
+                    </td>
+                    <td data-head="Sign up date">
+                      <span>April 28, 2024</span>
+                    </td>
+                    <td data-head="Bought Tokens, TIS">
+                      <span>12578</span>
+                    </td>
+                    <td data-head="Your Profit, TIS">
+                      <span>1886.7</span>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td data-head="#">
+                      <span>687</span>
+                    </td>
+                    <td data-head="E-mail">
+                      <span>michael.taylor22@hotmail.com</span>
+                    </td>
+                    <td data-head="Sign up date">
+                      <span>July 19, 2024</span>
+                    </td>
+                    <td data-head="Bought Tokens, TIS">
+                      <span>1448</span>
+                    </td>
+                    <td data-head="Your Profit, TIS">
+                      <span>217.2</span>
+                    </td>
+                  </tr>
+                </table>
               </div>
             </div>
           </div>
-        </div>
-        <div class="cabinet-buy-result">
-          <button class="btn btn_blue-400 btn_cabinet-buy2 mt-0">
-            <span>Save</span>
-            <img src="img/svg/cabinet/button_icon_3_ok.svg" alt="">
-          </button>
         </div>
       </div>
     </div>
   </section>
 
   <footer class="footer footer-cabinet">
-    <img src="img/footer_whiteline.png" alt="" class="footer-whiteline">
+    <img src="../img/footer_whiteline.png" alt="" class="footer-whiteline">
     <div class="container">
       <ul class="footer-menu">
         <li><a href="#">HOME</a></li>
@@ -218,7 +321,7 @@
         <li><a href="#">CONTACT US</a></li>
       </ul>
       <a href="#" class="footer-logo">
-        <img src="img/svg/1/totem_logo_full.svg" alt="">
+        <img src="../img/svg/1/totem_logo_full.svg" alt="">
       </a>
       <div class="footer-bottom">
         <ul class="footer-soc">
@@ -288,13 +391,13 @@
 
 
   <!-- Optional JavaScript -->
-  <script src="js/jquery-3.2.1.min.js" ></script>
-  <script src="js/popper.min.js"></script>
-  <script src="js/bootstrap.min.js"></script>
-  <script src="js/swiper-bundle.min.js"></script>
-  <script src="js/jquery-ui.min.js"></script>
-  <script src="js/jquery.ui.touch-punch.min.js"></script>
-  <script src="js/clipboard.min.js"></script>
-  <script src="js/scripts.js"></script>
+  <script src="../js/jquery-3.2.1.min.js" ></script>
+  <script src="../js/popper.min.js"></script>
+  <script src="../js/bootstrap.min.js"></script>
+  <script src="../js/swiper-bundle.min.js"></script>
+  <script src="../js/jquery-ui.min.js"></script>
+  <script src="../js/jquery.ui.touch-punch.min.js"></script>
+  <script src="../js/clipboard.min.js"></script>
+  <script src="../js/scripts.js"></script>
 </body>
 </html>

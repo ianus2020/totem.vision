@@ -13,11 +13,11 @@
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Space+Grotesk:wght@300..700&display=swap" rel="stylesheet">
 
   <!-- Bootstrap CSS -->
-  <link rel="stylesheet" href="css/bootstrap.min.css">
-  <link rel="stylesheet" href="css/swiper-bundle.min.css">
-  <link rel="stylesheet" href="css/jquery-ui.min.css">
-  <link rel="stylesheet" href="css/settings.css">
-  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="../css/bootstrap.min.css">
+  <link rel="stylesheet" href="../css/swiper-bundle.min.css">
+  <link rel="stylesheet" href="../css/jquery-ui.min.css">
+  <link rel="stylesheet" href="../css/settings.css">
+  <link rel="stylesheet" href="../css/style.css">
   <title>Totem</title>
 </head>
 <body id="body">
@@ -27,7 +27,7 @@
       <div class="container">
         <nav class="navbar navbar-expand-xl navbar-light">
           <a class="navbar-brand header-logo" href="#">
-            <img src="img/svg/1/totem_logo_full.svg" alt="">
+            <img src="../img/svg/1/totem_logo_full.svg" alt="">
           </a>
 
           <div class="collapse navbar-collapse header-collapse" id="header-collapse">
@@ -117,7 +117,7 @@
       <div class="container">
         <div class="page-title-wrap">
           <h1 class="global-title362 white m-0">
-            Partner Cabinet
+            Settings
           </h1>
           <ul class="page-title__list">
             <li>
@@ -147,33 +147,59 @@
           <a href="#">Dashboard</a>
         </li>
         <li>
-          <a href="#">Partner Cabinet</a>
-        </li>
-        <li>
-          Input Tokens
+          Settings
         </li>
       </ul>
       <div class="global-white global-white2 cabinet-withdraw-token">
         <div class="cabinet-parners-row">
+          <div class="row">
+            <div class="col-md-6 col-12">
+              <div class="global-form-item">
+                <div class="global-form-item__label">Your Name / Surname</div>
+                <input type="text" value="Matthew Bronsky" class="global-input global-input_border">
+              </div>
+            </div>
+            <div class="col-md-6 col-12">
+              <div class="global-form-item">
+                <div class="global-form-item__label">Email</div>
+                <input type="email" value="office@sepikacompany.com" class="global-input global-input_border">
+              </div>
+            </div>
+            <div class="col-12">
+              <div class="global-form-item">
+                <div class="global-form-item__label">Your Ethereum Wallet</div>
+                <input type="text" value="0xb794f5ea0ba394718da839613fffba74279579268" class="global-input global-input_border ellipsis">
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="cabinet-parners-row">
           <div class="cabinet-withdraw__title">
-            Input Tokens
+            Change Password
           </div>
         </div>
         <div class="cabinet-parners-row">
-          <div class="global-text118 cabinet-withdraw-token__text">
-            How much tokens you want to input
-          </div>
-          <div class="cabinet-withdraw-token-wrap">
-            <input type="text" value="4400" class="global-input global-input_border">
+          <div class="row">
+            <div class="col-md-6 col-12">
+              <div class="global-form-item">
+                <div class="global-form-item__label">Current Password</div>
+                <input type="password" class="global-input global-input_border">
+              </div>
+              <div class="global-form-item">
+                <div class="global-form-item__label">New Password</div>
+                <input type="password" class="global-input global-input_border">
+              </div>
+              <div class="global-form-item">
+                <div class="global-form-item__label">Retype New Password</div>
+                <input type="password" class="global-input global-input_border">
+              </div>
+            </div>
           </div>
         </div>
-        <div class="cabinet-parners-row">
-          <img src="img/cabinet-input-token_img.png" alt="" class="mw-100">
-        </div>
-        <div class="cabinet-buy-result mt-0">
+        <div class="cabinet-buy-result">
           <button class="btn btn_blue-400 btn_cabinet-buy2 mt-0">
-            <span>Send Request</span>
-            <img src="img/svg/cabinet/button_icon_3_ok.svg" alt="">
+            <span>Save</span>
+            <img src="../img/svg/cabinet/button_icon_3_ok.svg" alt="">
           </button>
         </div>
       </div>
@@ -181,7 +207,7 @@
   </section>
 
   <footer class="footer footer-cabinet">
-    <img src="img/footer_whiteline.png" alt="" class="footer-whiteline">
+    <img src="../img/footer_whiteline.png" alt="" class="footer-whiteline">
     <div class="container">
       <ul class="footer-menu">
         <li><a href="#">HOME</a></li>
@@ -192,7 +218,7 @@
         <li><a href="#">CONTACT US</a></li>
       </ul>
       <a href="#" class="footer-logo">
-        <img src="img/svg/1/totem_logo_full.svg" alt="">
+        <img src="../img/svg/1/totem_logo_full.svg" alt="">
       </a>
       <div class="footer-bottom">
         <ul class="footer-soc">
@@ -262,13 +288,13 @@
 
 
   <!-- Optional JavaScript -->
-  <script src="js/jquery-3.2.1.min.js" ></script>
-  <script src="js/popper.min.js"></script>
-  <script src="js/bootstrap.min.js"></script>
-  <script src="js/swiper-bundle.min.js"></script>
-  <script src="js/jquery-ui.min.js"></script>
-  <script src="js/jquery.ui.touch-punch.min.js"></script>
-  <script src="js/clipboard.min.js"></script>
-  <script src="js/scripts.js"></script>
+  <script src="../js/jquery-3.2.1.min.js" ></script>
+  <script src="../js/popper.min.js"></script>
+  <script src="../js/bootstrap.min.js"></script>
+  <script src="../js/swiper-bundle.min.js"></script>
+  <script src="../js/jquery-ui.min.js"></script>
+  <script src="../js/jquery.ui.touch-punch.min.js"></script>
+  <script src="../js/clipboard.min.js"></script>
+  <script src="../js/scripts.js"></script>
 </body>
 </html>
