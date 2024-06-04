@@ -1,0 +1,308 @@
+/*start titles*/
+
+.global-title618 {
+  font-size: 6.18rem;
+  line-height: 1em;
+  font-family: "Space Grotesk";
+  font-weight: 700;
+}
+.global-title375 {
+  font-size: 3.75rem;
+  line-height: 1em;
+  font-family: "Space Grotesk";
+  font-weight: 700;
+}
+.global-title362 {
+  font-size: 3.62rem;
+  line-height: 1em;
+  font-family: "Space Grotesk";
+  font-weight: 700;
+}
+.global-title312 {
+  font-size: 3.12rem;
+  line-height: 1.3em;
+  font-family: "Space Grotesk";
+  font-weight: 700;
+}
+.global-title287 {
+  font-size: 2.87rem;
+  line-height: 1em;
+  font-family: "Space Grotesk";
+  font-weight: 700;
+}
+.global-title262 {
+  font-size: 2.62rem;
+  line-height: 1em;
+  font-family: "Space Grotesk";
+  font-weight: 700;
+}
+.global-title206 {
+  font-size: 2.06rem;
+  line-height: 1em;
+  font-family: "Space Grotesk";
+  font-weight: 700;
+}
+.global-title_line, .global-title_dots {
+  display: inline-block;
+  position: relative;
+}
+.global-title_line img {
+  display: inline-block;
+  position: absolute;
+  z-index: 0;
+  width: 14.56rem;
+  top: 50%;
+  right: -95px;
+  -webkit-transform: translate(0, -50%);
+  -ms-transform: translate(0, -50%);
+  transform: translate(0, -50%);
+}
+.global-title_line span, .global-title_dots span {
+  position: relative;
+  z-index: 1;
+}
+.global-title_dots img {
+  display: inline-block;
+  position: absolute;
+  z-index: 0;
+  width: 7.68rem;
+}
+.global-title_dots-left img {
+  top: -15px;
+  left: -15px;
+}
+.global-title_dots-right img {
+  top: -20px;
+  right: 20%;
+}
+
+/*end titles*/
+
+/*start text*/
+
+.global-text {
+  color: #141515;
+  font-family: Montserrat;
+  font-size: 1.063rem;
+  font-weight: 400;
+  line-height: 1.94em;
+}
+.global-text p, .global-text ul, .global-text ol {
+  margin-bottom: 20px;
+}
+.global-text p:last-child, .global-text ul:last-child, .global-text ol:last-child {
+  margin-bottom: 0px;
+}
+
+.global-text118 {
+  color: #141515;
+  font-family: Montserrat;
+  font-size: 1.18rem;
+  font-weight: 400;
+  line-height: 1.74em;
+}
+.global-text118 p, .global-text118 ul, .global-text118 ol {
+  margin-bottom: 20px;
+}
+.global-text118 p:last-child, .global-text118 ul:last-child, .global-text118 ol:last-child {
+  margin-bottom: 0px;
+}
+
+/*end text*/
+
+/*start colors*/
+
+.white {
+  color: #fff !important;
+}
+.blue-300 {
+  color: #1298f9 !important;
+}
+.blue {
+  color: #0000f8 !important;
+}
+.balck {
+  color: #141515 !important;
+}
+
+/*end colors*/
+
+/*start btns*/
+
+.btn {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  border-radius: 0;
+}
+.btn:focus, .btn:active {
+  -webkit-box-shadow: inherit;
+  box-shadow: inherit;
+}
+.btn_blue-900 {
+  background-color: #001c63;
+  color: #fefefe;
+  font-family: "Space Grotesk";
+  font-size: 1.188rem;
+  font-weight: 700;
+  line-height: 1em;
+  -webkit-transition: background-color 0.5s;
+  transition: background-color 0.5s;
+  min-height: 3.5rem;
+}
+.btn_blue-900:hover {
+  background-color: #0c369e;
+  color: #fefefe;
+}
+.btn_blue-700 {
+  background-color: #0c369e;
+  color: #fefefe;
+  font-family: "Space Grotesk";
+  font-size: 1.188rem;
+  font-weight: 700;
+  line-height: 1em;
+  -webkit-transition: background-color 0.5s;
+  transition: background-color 0.5s;
+  min-height: 3.5rem;
+}
+.btn_blue-700:hover {
+  background-color: #001c63;
+  color: #fefefe;
+}
+.btn_blue-400 {
+  background-color: #0000f8;
+  color: #fefefe;
+  font-family: "Space Grotesk";
+  font-size: 1.188rem;
+  font-weight: 700;
+  line-height: 1em;
+  -webkit-transition: background-color 0.5s;
+  transition: background-color 0.5s;
+  min-height: 3.5rem;
+}
+.btn_blue-400:hover {
+  background-color: #1253a5;
+  color: #fefefe;
+}
+.btn_blue-500 {
+  background-color: #1253a5;
+  color: #fefefe;
+  font-family: "Space Grotesk";
+  font-size: 1.188rem;
+  font-weight: 700;
+  line-height: 1em;
+  -webkit-transition: background-color 0.5s;
+  transition: background-color 0.5s;
+  min-height: 3.5rem;
+}
+.btn_blue-500:hover {
+  background-color: #0000f8;
+  color: #fefefe;
+}
+
+/*end btns*/
+
+/*start container*/
+
+@media (min-width: 1200px) { 
+  .container {
+    max-width: 1200px;
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+  }
+}
+@media (min-width: 1430px) { 
+  .container {
+    max-width: 1430px;
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+  }
+}
+@media (max-width: 1199.5px) { 
+  .container {
+    max-width: 100%;
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+  }
+}
+
+/*end container*/
+
+input::-ms-clear {
+ display: none;
+}
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+/*modal по вертикали*/
+.modal {
+  text-align: center;
+}
+@media screen and (min-width: 1200px) {
+  .modal:before {
+    display: inline-block;
+    vertical-align: middle;
+    content: " ";
+    height: 100%;
+  }
+}
+.modal-dialog {
+  display: inline-block;
+  text-align: left;
+  vertical-align: middle;
+}
+/*a*/
+a:hover {
+  text-decoration: none;
+  color: inherit;
+}
+ul li {
+  list-style-type: none;
+}
+a:focus, a:visited, a:link, a:hover, button:focus, button:visited, button:link, button:hover {
+  outline: none;
+}
+*:focus, div:focus, input:focus, input:visited, input:hover, input:link {
+  outline: none;
+}
+textarea:focus, textarea:visited, textarea:hover, textarea:link {
+  outline: none;
+}
+button, label {
+  cursor: pointer;
+}
+
+/*start swiper slider not use select*/
+.swiper-slide, .swiper-button-prev, .swiper-button-next {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none; 
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+/*end swiper slider not use select*/
+
+/*placeholder*/
+::-webkit-input-placeholder {}
+::-moz-placeholder      {}
+:-moz-placeholder       {}
+:-ms-input-placeholder    {}
